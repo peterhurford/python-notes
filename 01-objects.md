@@ -13,7 +13,7 @@
 #### Built-ins
 
 | Class | Description | Default | Mutable? | Notes |
-----------------------------------
+| ----- | ----------- | ------- | -------- | ----- |
 | bool | Boolean (true or false) | `False` | No | |
 | int | Integer (e.g., `1`) | `0` | No | Binary can be represented by, e.g., `0b011`, octal by, e.g., `0o52`, and hexidecimal by, e.g., `0x7f`. |
 | float | Floating point number (e.g., `1.03`) | `0.0` | No | |

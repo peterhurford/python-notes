@@ -21,5 +21,5 @@
 | list | sequence of objects | `[]` | Yes | The `list` constructor can be used on any iterable type (e.g., `list("hey")` makes `["h", "e", "y"]`. |
 | tuple | immutable sequence of objects | `()` | No | A one-element tuple needs a trailing comma (e.g., `(1,)`) |
 | set | ordered set of distinct objects | `set([])` | Yes | |
-| frozenset | immutable form of set | `frozenset([])` No | |
+| frozenset | immutable form of set | `frozenset([])` | No | |
 | dict | associative key-value mapping | `{}` | Yes | |

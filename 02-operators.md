@@ -19,7 +19,7 @@
 | `%` | Modulus | `5 % 3` -> `2` | |
 | `~` | Bitwise compliment (flips bits) | `~2` -> `~ 0000 0010` (in binary) -> `1111 1101` (flip bits) -> interpreted as `-3` by Python | In practice in Python, `~n` will always be `-(n+1)`.
 | `&` | Bitwise and (logical and on each bit) | `5 & 3` -> `0101` and `0011` -> `0001` -> `1` | |
-| `|` | Bitwise or | `5 | 3` -> `0101` or `0011` -> `0111` -> `7` | |
+| `\|` | Bitwise or | `5 \| 3` -> `0101` or `0011` -> `0111` -> `7` | |
 | `^` | Bitwise exlcusive or | `5 ^ 3` -> `0101` xor `0011` -> `0110` -> `6` | |
 | `<<` | Shift bits left | `5 << 1` -> `0101 << 1` -> `1010` -> `10` | |
 | `>>` | Shift bits right | `5 >> 1` -> `0101 >> 1` -> `0010` -> `2` | |

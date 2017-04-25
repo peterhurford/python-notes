@@ -11,7 +11,7 @@
 
 * A **generator** is a function that creates an iterator where each next value is given by the `yield` keyword.
 
-```
+```Python
 def fib():
     a, b = 1, 1
     while True:

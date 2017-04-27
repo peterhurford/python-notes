@@ -2,7 +2,12 @@
 
 * A statement like `x = 4` instantiates an **identifier** (e.g., `x`) that **points** to an **object** (e.g., `4`).
 * A **class** is the "essence" of the object that explains how it works (e.g., an integer). An **object** is the instantiation of that class in a particular "form".
+
+#### Mutability
+
 * Objects are **mutable** if they can be updated in place. **Immutable** objects cannot be updated, but the identifier could be re-assigned to a different object.
+* A **shallow copy** is a copy of just the object, but all contents in that object still point to their original places.
+* A **deep copy** copies the object and all its data. Modifying a deep copy of an object will not affect the original object.
 
 #### Methods
 
